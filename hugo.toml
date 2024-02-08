@@ -133,33 +133,29 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this co
 # cookies
 [params.cookies]
 enable = true
-expire_days = 2
+expire_days = 1
   
 ############################# social site ########################
 [[params.social]]
 title = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/profile.php?id=61555900906432"
 
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/chessmathlab"
 
 [[params.social]]
 title = "instagram"
 icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.instagram.com/chessmathlab"
 
 [[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "youtube"
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/@ChessMathLab"
 
-[[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
 
 
 ################################### English language #####################################
@@ -181,79 +177,58 @@ copyright = "Copyright &copy; 2024 [ChessMathLab](https://chessmathlab.org/)"
 # main menu
 
 [[Languages.en.menu.main]]
-name = "For Kids"
-url = "about/"
+name = "Team"
+url = "team/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "For Seniors"
-url = "course/"
+name = "For Kids"
+url = "about/"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Chessematics"
-url = "course/"
+name = "For Seniors"
+url = "about/"
 weight = 3
 
 [[Languages.en.menu.main]]
+name = "Chessematics"
+url = "about/"
 weight = 4
-name = "Pages"
-hasChildren = true
 
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "teacher"
-  url = "teacher/"
+[[Languages.en.menu.main]]
+name = "Event"
+url = "event/"
+weight = 5
 
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "notice"
-  url = "notice/"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "event"
-  url = "event/"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "scholarship"
-  url = "scholarship/"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "research"
-  url = "research/"
-  
 #[[Languages.en.menu.main]]
-#name = "blog"
-#url = "blog/"
-#weight = 5
+#weight = 4
+#name = "Pages"
+#hasChildren = true
+
+#  [[Languages.en.menu.main]]
+#  parent = "Pages"
+#  name = "News"
+#  url = "news/"
+
+[[Languages.en.menu.main]]
+name = "blog"
+url = "blog/"
+weight = 6
   
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact/"
-weight = 5
+weight = 7
 
 
 # footer menu
-
-[[Languages.en.menu.footer]]
-name = "teacher"
-url = "teacher/"
-
-[[Languages.en.menu.footer]]
-name = "notice"
-url = "notice/"
 
 [[Languages.en.menu.footer]]
 name = "event"
 url = "event/"
 
 [[Languages.en.menu.footer]]
-name = "scholarship"
-url = "scholarship/"
+name = "team"
+url = "team/"
 
-[[Languages.en.menu.footer]]
-name = "research"
-url = "research/"

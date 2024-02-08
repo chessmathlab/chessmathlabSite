@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<!-- team -->
+<section class="section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img class="img-fluid" src="{{ .Params.image | relURL }}" alt="Chess + Math Lab Team">
+      </div>
+      <div class="col-md-6 content">
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="row">
+      <!-- team item -->
+      {{ range .Data.Pages.ByWeight }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ .Render "team" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /team -->
+
+{{ end }}

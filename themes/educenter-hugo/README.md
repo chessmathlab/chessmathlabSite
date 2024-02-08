@@ -66,7 +66,7 @@
 - 📄Notice Single Page
 - 📑Research Page 
 - 📑Research Single Page
-- 👑Scholarship Page
+- 👑team Page
 - 🧑‍💼Teacher Page
 - 🧑‍💼Teacher Single Page 
 - 📖404 Page
