@@ -183,17 +183,17 @@ weight = 1
 
 [[Languages.en.menu.main]]
 name = "For Kids"
-url = "about/"
+url = "for-kids/"
 weight = 2
 
 [[Languages.en.menu.main]]
 name = "For Seniors"
-url = "about/"
+url = "for-seniors/"
 weight = 3
 
 [[Languages.en.menu.main]]
 name = "Chessematics"
-url = "about/"
+url = "chessematics/"
 weight = 4
 
 [[Languages.en.menu.main]]

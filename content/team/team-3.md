@@ -10,7 +10,6 @@ description : "Vice President & Co-Founder"
 school: "Freshman @ Acton-Boxborough Regional High School"
 weight: 300
 ---
-
 * USCF National Master
 * 4th Place, 2023 Dewain Barber National Middle School State Champions
 * 1st Place, 2023 Weeramantry National Blitz Tournament (U2200) 
@@ -21,7 +20,11 @@ weight: 300
 * 1st Place, 2020 Invitational Spiegel Cup
 * 2nd Place, 2021 North America Youth U14 Blitz
 * 9th Place, 2019 National 5th Grade Championship
+---
 * Volunteer for teaching elementary school students math @Fun Learning Place in 2023
+--- 
+* Chess Instructor, LexYouth, 2023
 * Director, TD @ChessInspire since 2023
 * Vice President & Co-Founder @Chess+Math Lab since 2023
+---
 * Freshman @ Acton-Boxborough Regional High School
