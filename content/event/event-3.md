@@ -1,9 +1,9 @@
 ---
-title: "Social media and behavior economics conference"
+title: "Chess Tournament C"
 # Schedule page publish date
-publishDate: "2019-01-01T00:00:00Z"
+publishDate: "2023-11-21T00:00:00Z"
 # event date
-date: "2030-03-09T15:27:17+06:00"
+date: "2023-11-20T15:27:17+06:00"
 # post save as draft
 draft: false
 # page title background image
@@ -13,32 +13,7 @@ description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 # Event image
 image: "images/events/event-3.jpg"
 # location
-location: "Dhanmondi, Dhaka"
-# entry fee
-fee: "From: $699"
-# apply url
-apply_url : "#"
-# event speaker
-speaker:
-  # speaker loop
-  - name : "Jack Mastio"
-    image : "images/event-speakers/speaker-1.jpg"
-    designation : "Teacher"
-
-  # speaker loop
-  - name : "John Doe"
-    image : "images/event-speakers/speaker-2.jpg"
-    designation : "Teacher"
-
-  # speaker loop
-  - name : "Randy Luis"
-    image : "images/event-speakers/speaker-3.jpg"
-    designation : "Teacher"
-
-  # speaker loop
-  - name : "Alfred Jin"
-    image : "images/event-speakers/speaker-4.jpg"
-    designation : "Teacher"
+location: "Boston, MA"
 
 # type
 type: "event"

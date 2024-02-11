@@ -104,7 +104,7 @@ address = "Boston, Masschusetts USA"
 # mobile = "+211234565523"
 email = "chessmath2023@gmail.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://getform.io/f/8908aae1-d0f0-4fa9-bc92-e8cc5f68c7b7" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header

@@ -1,6 +1,6 @@
 ---
-title: "Elegant Light Box Paper Cut Dioramas"
-date: 2019-07-06T15:27:17+06:00
+title: "World Amateur Team And US Team East 2024"
+date: 2024-01-20T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -11,8 +11,8 @@ image: "images/blog/post-3.jpg"
 # post author
 author: "Mark Dinn"
 # taxonomy
-categories: ["Eco System"]
-tags: ["Advice", "Eco"]
+categories: ["Tournament Experience"]
+tags: ["Strategy", "Middle Game"]
 # type
 type: "post"
 ---

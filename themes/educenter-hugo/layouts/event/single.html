@@ -34,7 +34,9 @@
               </div>
             </div>
           </li>
-          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+        </ul>
+      </div>
+          <!-- <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
             <div class="d-flex align-items-center">
               <i class="ti-time text-primary icon-md mr-2"></i>
               <div class="text-left">
@@ -56,7 +58,7 @@
       </div>
       <div class="col-lg-3 text-lg-right text-left">
         <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "apply_now" }}</a>
-      </div>
+      </div> -->
       <!-- border -->
       <div class="col-12 mt-4 order-4">
         <div class="border-bottom border-primary"></div>
@@ -69,12 +71,12 @@
       </div>
     </div>
     <!-- event speakers -->
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-12">
         <h3 class="mb-4">{{ i18n "event_speaker"}}</h3>
-      </div>
+      </div> -->
       <!-- speakers -->
-      {{ range .Params.Speaker }}
+      <!-- {{ range .Params.Speaker }}
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         <div class="media">
          {{ with .image }}<img class="mr-3 img-fluid" src="{{ . | relURL }}" alt="speaker">{{ end }}
@@ -84,7 +86,7 @@
           </div>
         </div>
       </div>
-      {{ end }}
+      {{ end }} -->
       <!-- border -->
       <div class="col-12 mt-4 order-4">
         <div class="border-bottom border-primary"></div>
@@ -95,16 +97,16 @@
 <!-- /event single -->
 
 <!-- more event -->
-<section class="section pt-0">
+<!-- <section class="section pt-0">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <h2 class="section-title">{{ i18n "more_event" }}</h2>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center"> -->
       <!-- event -->
-      {{ $related := (where site.RegularPages "Type" "event") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+      <!-- {{ $related := (where site.RegularPages "Type" "event") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
       {{ range first 3 $related }}
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
         {{ .Render "event" }}
@@ -112,7 +114,7 @@
       {{ end }}
     </div>
   </div>
-</section>
+</section> -->
 <!-- /more event -->
 
 {{ end }}

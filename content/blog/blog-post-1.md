@@ -1,6 +1,6 @@
 ---
-title: "Elegant Light Box Paper Cut Dioramas"
-date: 2019-07-06T15:27:17+06:00
+title: "2023 National K-12 Grade Championship tournament experience"
+date: 2023-12-06T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -11,8 +11,8 @@ image: "images/blog/post-1.jpg"
 # post author
 author: "John Doe"
 # taxonomy
-categories: ["Automation System"]
-tags: ["Advice", "Automation"]
+categories: ["Tournament Experience"]
+tags: ["Game Preparation"]
 # type
 type: "post"
 ---

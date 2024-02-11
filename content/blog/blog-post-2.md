@@ -1,6 +1,6 @@
 ---
-title: "Elegant Light Box Paper Cut Dioramas"
-date: 2019-07-06T15:27:17+06:00
+title: "Boston Chess Congress Tournament 2024"
+date: 2024-01-08T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -11,8 +11,8 @@ image: "images/blog/post-2.jpg"
 # post author
 author: "John Doe"
 # taxonomy
-categories: ["Education System"]
-tags: ["Education", "Automation"]
+categories: ["Game Review"]
+tags: ["End Game", "Tactics"]
 # type
 type: "post"
 ---
