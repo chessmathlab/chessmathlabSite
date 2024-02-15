@@ -192,8 +192,8 @@ url = "for-seniors/"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "Chessematics"
-url = "chessematics/"
+name = "Chess & STEM"
+url = "stem/"
 weight = 4
 
 [[Languages.en.menu.main]]
@@ -211,15 +211,15 @@ weight = 5
 #  name = "News"
 #  url = "news/"
 
-[[Languages.en.menu.main]]
-name = "blog"
-url = "blog/"
-weight = 6
+#[[Languages.en.menu.main]]
+#name = "blog"
+#url = "blog/"
+#weight = 6
   
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact/"
-weight = 7
+weight = 6
 
 
 # footer menu

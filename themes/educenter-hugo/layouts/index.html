@@ -4,7 +4,7 @@
 
 
 <!-- hero banner -->
-{{ if $data.homepage.banner.enable }}
+<!-- {{ if $data.homepage.banner.enable }}
 {{ with $data.homepage.banner }}
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
  <div class="container">
@@ -20,25 +20,30 @@
  </div>
 </section>
 {{end}}
-{{end}}
+{{end}} -->
 <!-- hero banner -->
 
 <!-- hero slider -->
-<!-- {{ if $data.homepage.slider.enable }}
+{{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
   <div class="container">
-    <div class="hero-slider"> -->
+    <div class="hero-slider">
       <!-- slider item -->
-      <!-- {{ range .slider_item }}
-      <div class="hero-slider-item">
+      {{ range .slider_item }}
+      <div class="hero-slider-item" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".1"
+      data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">
         <div class="row">
           <div class="col-md-8">
-            <h1 class="text-white" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3"
-              data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h1>
-            <p class="text-muted mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</p>
+            <h2 class="text-white">{{ .title | markdownify }}</h2>
+              <p></p>
+              <div>
+                <img class="img-responsive" style="height:360px;width: 600;" src="{{ .image }}" alt="">
+              </div>
+              <p></p>
+              <p class="text-muted mb-4">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
-            <a href="{{ .button.link | absLangURL }}" class="btn btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
+            <a href="{{ .button.link | absLangURL }}" class="btn btn-primary">{{ .button.label }}</a>
             {{ end }}
           </div>
         </div>
@@ -48,7 +53,8 @@
   </div>
 </section>
 {{ end }}
-{{ end }} -->
+{{ end }}
+
 <!-- /hero slider -->
 
 <!-- banner-feature -->
