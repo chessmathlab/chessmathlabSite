@@ -197,7 +197,7 @@ url = "stem/"
 weight = 4
 
 [[Languages.en.menu.main]]
-name = "Event"
+name = "Events"
 url = "event/"
 weight = 5
 

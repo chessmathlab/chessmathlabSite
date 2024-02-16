@@ -14,19 +14,19 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Cambridge Foundry Festival <br> Please Join Us on Feb 24, 2024"
+    - title : "Cambridge Foundry Festival @Cambridge <br/>Join Us on Feb 24, 2024!"
       content : "Our team will host a chess program in Cambridge Foundry Festival from 3pm to 5pm on Feb 24, 2024"
-      image: "images/events/cambridgeFoundryFestival202402.png"
+      image: "images/events/cambridgeFoundryFestival202402.jpg"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Read More"
-        link : "contact/"
+        link : "event/cambridgefoundry2024"
 
     # slider item loop
-    - title : "Challenge Chess Master <br>In Chinese New Year Festival"
+    - title : "Challenge Chess Master @Acton <br/>Lunar New Year Celebration on Feb 4, 2024"
       content : "Our team member hosted a Challenge Chess Master event in Chinese New year Festival Celebration organized by Acton Chinese Language School"
       image: "images/events/actoncls202402.jpg"
       animation_in : "left"
@@ -35,10 +35,10 @@ slider:
       button:
         enable : true
         label : "Read More"
-        link : "contact/"
+        link : "event/actoncls202402"
 
     # slider item loop
-    - title : "Free Chess Lesson Program in Cambridge Community Center"
+    - title : "Family Chess Night @Cambridge Community Center <br/> on Jan 19, 2024"
       content : "Our team offers free chess lesson program in Cambridge Community Center to young kids"
       image: "images/events/cambridgecc202401.jpg"
       animation_in : "left"
@@ -47,9 +47,9 @@ slider:
       button:
         enable : true
         label : "Read More"
-        link : "contact/"
+        link : "event/cambridgecc202401"
 
-    - title : "Free Chess Summer Camp in Sportsmen's Tennis and Enrichment Center"
+    - title : "Free Chess Summer Camp @STEC Dorchester <br/> Summer 2023"
       content : "Our team offers free chess summer program in Sportsmen Tennis and Enrichment Center in Dorchester for young kids"
       image: "images/events/sportsmenCenter202308.jpg"
       animation_in : "left"
@@ -58,7 +58,7 @@ slider:
       button:
         enable : true
         label : "Read More"
-        link : "contact/"
+        link : "event/sportmen202308"
 
 
 ############################## about ##################################

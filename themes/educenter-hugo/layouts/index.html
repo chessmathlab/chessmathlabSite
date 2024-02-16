@@ -35,16 +35,16 @@
       data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">
         <div class="row">
           <div class="col-md-8">
-            <h2 class="text-white">{{ .title | markdownify }}</h2>
+            <h3 class="text-white">{{ .title | markdownify }}</h3>
               <p></p>
               <div>
-                <img class="img-responsive" style="height:360px;width: 600;" src="{{ .image }}" alt="">
-              </div>
-              <p></p>
-              <p class="text-muted mb-4">{{ .content | markdownify }}</p>
-            {{ if .button.enable }}
-            <a href="{{ .button.link | absLangURL }}" class="btn btn-primary">{{ .button.label }}</a>
-            {{ end }}
+                <img class="img-responsive" style="max-width: 100%; min-width: 400px;  height: auto; margin-bottom: 20px" src="{{ .image }}" alt="">
+                {{ if .button.enable }}
+                <a href="{{ .button.link | absLangURL }}" class="btn btn-primary">{{ .button.label }}</a>
+                {{ end }}
+              </div>              
+              <!-- <p class="text-muted mb-4">{{ .content | markdownify }}</p> -->
+           
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 ---
-title: "Chess Program in Cambridge Foundry Festival, Feburary 2024"
+title: "Cambridge Foundry Festival @Cambridge, Join Us on Feb 24, 2024!"
 # Schedule page publish date
 publishDate: "2024-02-10T00:00:00Z"
 # event date
@@ -11,7 +11,7 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 # Event image
-image: "images/events/cambridgeFoundryFestival202402.png"
+image: "images/events/cambridgeFoundryFestival202402.jpg"
 # location
 location: "Cambridge, MA"
 # entry fee

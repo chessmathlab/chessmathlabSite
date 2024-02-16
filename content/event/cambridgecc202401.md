@@ -1,5 +1,5 @@
 ---
-title: "Free Chess Lessons in Cambridge Community Center, January 2024"
+title: "Family Chess Night @Cambridge Community Center"
 # Schedule page publish date
 publishDate: "2024-01-21T00:00:00Z"
 # event date
