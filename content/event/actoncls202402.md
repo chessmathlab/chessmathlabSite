@@ -14,14 +14,21 @@ description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 image: "images/events/actoncls202402/photo1.jpg"
 # location
 location: "Acton, MA"
-
-
+hasCarousel: true
+images: 
+  - image: /images/events/actoncls202402/photo1.jpg
+    content_html: "1"
+  - image: /images/events/actoncls202402/photo2.jpg
+    content_html: "2"
+  - image: /images/events/actoncls202402/photo3.jpg
+    content_html: "3"
+  - image: /images/events/actoncls202402/photo4.jpg
+    content_html: "4"
+  - image: /images/events/actoncls202402/photo5.jpg
+    content_html: "5"
 # type
 type: "event"
 ---
-
-
-{{< carousel items="1" width="100" height="65" unit="%" duration="5000" >}}
 
 ### About Event
 

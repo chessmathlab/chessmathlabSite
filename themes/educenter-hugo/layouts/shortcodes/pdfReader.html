@@ -1,1 +1,5 @@
-<embed src= "{{ .Get 0 }}" width= "100%" height= "1000px" type="application/pdf" >
+{{ if in (print $.Site.BaseURL) "13"}}
+  <embed src= "{{ .Get 0 }}" width= "100%" height= "1000px" type="application/pdf" />
+{{ else }}
+<object data="https://docs.google.com/gview?embedded=true&url={{ .Get 0 | absURL }}" type="application/pdf" width= "100%" height= "1000px"/>
+{{end}}

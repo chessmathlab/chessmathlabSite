@@ -11,9 +11,27 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 # Event image
-image: "images/events/sportsmenCenter202308.jpg"
+image: "/images/events/sportsmenCenter202308/photo1.jpg"
 # location
 location: "Dorchester, MA"
+hasCarousel: true
+images: 
+  - image: /images/events/sportsmenCenter202308/photo1.jpg
+    content_html: "1"
+  - image: /images/events/sportsmenCenter202308/photo2.jpg
+    content_html: "2"
+  - image: /images/events/sportsmenCenter202308/photo3.jpg
+    content_html: "3"
+  - image: /images/events/sportsmenCenter202308/photo4.jpg
+    content_html: "4"
+  - image: /images/events/sportsmenCenter202308/photo5.jpg
+    content_html: "5"
+  - image: /images/events/sportsmenCenter202308/photo6.jpg
+    content_html: "6"
+  - image: /images/events/sportsmenCenter202308/photo7.jpg
+    content_html: "7"
+  - image: /images/events/sportsmenCenter202308/photo8.jpg
+    content_html: "8"
 
 # type
 type: "event"

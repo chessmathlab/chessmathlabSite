@@ -14,6 +14,27 @@ description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 image: "images/events/cambridgecc202401.jpg"
 # location
 location: "Cambridge, MA"
+hasCarousel: true
+images: 
+  - image: /images/events/cambridgecc202401/photo1.jpg
+    content_html: "1"
+  - image: /images/events/cambridgecc202401/photo2.jpg
+    content_html: "2"
+  - image: /images/events/cambridgecc202401/photo3.jpg
+    content_html: "3"
+  - image: /images/events/cambridgecc202401/photo4.jpg
+    content_html: "4"
+  - image: /images/events/cambridgecc202401/photo5.jpg
+    content_html: "5"
+  - image: /images/events/cambridgecc202401/photo6.jpg
+    content_html: "6"
+  - image: /images/events/cambridgecc202401/photo7.jpg
+    content_html: "7"
+  - image: /images/events/cambridgecc202401/photo8.jpg
+    content_html: "8"
+  - image: /images/events/cambridgecc202401/photo9.jpg
+    content_html: "9"
+
 
 # type
 type: "event"

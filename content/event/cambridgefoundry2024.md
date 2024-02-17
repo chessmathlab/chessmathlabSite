@@ -11,9 +11,10 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 # Event image
-image: "images/events/cambridgeFoundryFestival202402.jpg"
+image: "images/events/cambridgeFoundry202402.jpg"
 # location
 location: "Cambridge, MA"
+hasCarousel: false
 # entry fee
 #fee: "From: $699"
 # apply url

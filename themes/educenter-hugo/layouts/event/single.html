@@ -8,10 +8,15 @@
         <h3 class="section-title">{{ .Title }}</h3>
       </div>
       <!-- event image -->
+      {{ if  not .Params.hasCarousel }}
       <div class="col-8 mb-4">
         <img style="height: 100%;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100">
       </div>
+      {{end}}
     </div>
+    {{ if  .Params.hasCarousel }}
+       {{ partial "carousel.html" (dict "context" . "items" "1" "height" "60" "unit" "%" "duration" "5000" "images" $.Params.images) }}
+    {{end}}
     <!-- event info -->
     <div class="row align-items-center mb-5">
       <div class="col-lg-9">
