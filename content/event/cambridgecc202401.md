@@ -1,9 +1,9 @@
 ---
 title: "Family Chess Night @Cambridge Community Center"
 # Schedule page publish date
-publishDate: "2024-01-21T00:00:00Z"
+publishDate: "2024-01-19T00:00:00Z"
 # event date
-date: "2024-01-21T00:00:00Z"
+date: "2024-01-19T00:00:00Z"
 # post save as draft
 draft: false
 # page title background image

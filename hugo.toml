@@ -182,24 +182,9 @@ url = "team/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "For Kids"
-url = "for-kids/"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "For Seniors"
-url = "for-seniors/"
-weight = 3
-
-[[Languages.en.menu.main]]
-name = "Chess & STEM"
-url = "stem/"
-weight = 4
-
-[[Languages.en.menu.main]]
 name = "Events"
 url = "event/"
-weight = 5
+weight = 2
 
 #[[Languages.en.menu.main]]
 #weight = 4
@@ -210,16 +195,11 @@ weight = 5
 #  parent = "Pages"
 #  name = "News"
 #  url = "news/"
-
-#[[Languages.en.menu.main]]
-#name = "blog"
-#url = "blog/"
-#weight = 6
   
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact/"
-weight = 6
+weight = 3
 
 
 # footer menu
