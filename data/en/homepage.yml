@@ -74,11 +74,16 @@ about:
 ############################## for kids ##################################
 for_kids:
   enable : true
-  title : "Chess For Kids"
+  title : "Chess & STEM For Kids"
   image : "images/chessForKids.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  content : "Our team is dedicated to nurturing intelligence and mental resilience in children through the game of chess. While not professional coaches, 
+  our volunteers bring passion and expertise to each session, emphasizing the mastery of chess strategies alongside the development of 
+  critical thinking and problem-solving skills. Additionally, we integrate Math and STEM-related subjects into our lessons,
+  utilizing chess games as a platform for learning. Children are encouraged to apply their chess knowledge and pattern recognition skills 
+  to Math and STEM concepts, fostering a deeper understanding of these subjects in a fun and interactive way. Through interactive lessons and gameplay,
+  our mentors guide children to think strategically and persevere through challenges,
+  both on and off the chessboard. By honing their skills in chess and applying them to Math and STEM subjects, children also sharpen their abilities 
+  in academics, career, and life. The transformative power of chess has the potential to unlock children's full capabilities, paving the way for a brighter future."
   button:
     enable : false
 
@@ -87,20 +92,12 @@ for_seniors:
   enable : true
   title : "Chess For Seniors"
   image : "images/chessForSeniors.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-  button:
-    enable : false  
-
-############################## chess & STEM ##################################
-chess_stem:
-  enable : true
-  title : "Chess & STEM"
-  image : "images/stem.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  content : "At ChessMathLab, our commitment to fostering intellectual growth extends beyond children to seniors as well. 
+  Our dedicated volunteers organize special events at senior community centers, offering seniors the opportunity to learn
+   chess or enhance their skills. Engaging in chess not only keeps their minds sharp but also contributes to improved mental health by 
+   stimulating cognitive functions and promoting social interaction. Our volunteers provide patient guidance and support,
+    ensuring that seniors feel empowered and encouraged on their chess journey. Through these initiatives, ChessMathLab aims to enrich the lives of seniors,
+     providing them with a fulfilling activity that brings both mental stimulation and social connection."
   button:
     enable : false  
 
