@@ -47,4 +47,15 @@ type: "event"
 
 ### About Event
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+[Cambridge Foundry Festival](https://www.cambridgefoundry.org/events/festival) is a weeklong festival, hosted by The Foundry Consortium, will offer free programming to explore how art and design can drive social change and inspire community engagement. The festival intends to bridge generational gaps and foster connections between communities. All ages and skill levels are welcome to participate in as many activities as you are excited about.
+
+Our chess program session is scheduled on **Feb 24, 2024 3pm to 5 pm**, **NO registration is required**. It's open to all ages, our team members will play chess with participants in all different formats.
+
+Location is **Community Hall at Foundry Building (14 in the the following Foundry Map)**, [101 Rogers St., Cambridge, MA 02142](https://www.google.com/maps/dir//42.3666874,-71.0827421/@42.3666579,-71.1651429,12z?entry=ttu). Foundry Festival Website gives [Direction & Parking Information](https://www.cambridgefoundry.org/events/festival#Parking)
+
+#### Foundry Indoor Map
+<img src="/images/events/foundryMap.png" width="100%">
+
+
+
+

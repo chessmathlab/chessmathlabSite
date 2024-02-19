@@ -9,7 +9,7 @@
       </div>
       <!-- event image -->
       {{ if  not .Params.hasCarousel }}
-      <div class="col-8 mb-4">
+      <div class="col-12 mb-4">
         <img style="height: 100%;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100">
       </div>
       {{end}}
