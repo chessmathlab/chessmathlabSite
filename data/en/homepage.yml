@@ -26,18 +26,6 @@ slider:
         link : "event/cambridgefoundry2024"
 
     # slider item loop
-    - title : "Challenge Chess Master @Acton <br/>Lunar New Year Celebration on Feb 4, 2024"
-      content : "Our team member hosted a Challenge Chess Master event in Chinese New year Festival Celebration organized by Acton Chinese Language School"
-      image: "images/events/actoncls202402/photo1.jpg"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Read More"
-        link : "event/actoncls202402"
-
-    # slider item loop
     - title : "Family Chess Night @Cambridge Community Center <br/> on Jan 19, 2024"
       content : "Our team offers free chess lesson program in Cambridge Community Center to young kids"
       image: "images/events/cambridgecc202401.jpg"
@@ -48,6 +36,17 @@ slider:
         enable : true
         label : "Read More"
         link : "event/cambridgecc202401"
+
+    - title : "Challenge Chess Master @Acton <br/>Lunar New Year Celebration on Feb 4, 2024"
+      content : "Our team member hosted a Challenge Chess Master event in Chinese New year Festival Celebration organized by Acton Chinese Language School"
+      image: "images/events/actoncls202402/photo1.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/actoncls202402"
 
     - title : "Free Chess Summer Camp @STEC Dorchester <br/> Summer 2023"
       content : "Our team offers free chess summer program in Sportsmen Tennis and Enrichment Center in Dorchester for young kids"
