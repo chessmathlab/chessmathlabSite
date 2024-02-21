@@ -14,6 +14,8 @@ description : ""
 image: "images/events/cambridgeFoundry202402.jpg"
 # location
 location: "Cambridge, MA"
+singleImage: true
+useYoutube: false
 hasCarousel: false
 # entry fee
 #fee: "From: $699"

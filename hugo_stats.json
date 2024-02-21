@@ -30,6 +30,7 @@
       "meta",
       "nav",
       "noscript",
+      "object",
       "ol",
       "p",
       "script",
@@ -98,6 +99,7 @@
       "d-sm-block",
       "d-sm-none",
       "dsq-brlink",
+      "embed",
       "fixed-top",
       "font-secondary",
       "font-weight-bold",
@@ -174,6 +176,7 @@
       "prev",
       "py-2",
       "py-4",
+      "responsive-embed",
       "rounded-0",
       "row",
       "section",
@@ -202,7 +205,9 @@
       "ti-youtube",
       "top-header",
       "top-hider",
-      "w-100"
+      "video-player",
+      "w-100",
+      "widescreen"
     ],
     "ids": [
       "1914-translation-by-h-rackham",
@@ -216,7 +221,6 @@
       "c10_slide6",
       "c10_slide7",
       "c10_slide8",
-      "c10_slide9",
       "carousel10",
       "chess--math-lab-team",
       "disqus_thread",

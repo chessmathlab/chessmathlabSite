@@ -14,6 +14,8 @@ description : ""
 image: "/images/events/sportsmenCenter202308/photo1.jpg"
 # location
 location: "Dorchester, MA"
+singleImage: false
+useYoutube: false
 hasCarousel: true
 images: 
   - image: /images/events/sportsmenCenter202308/photo1.jpg

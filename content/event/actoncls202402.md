@@ -14,7 +14,9 @@ description : ""
 image: "images/events/actoncls202402/photo1.jpg"
 # location
 location: "Acton, MA"
+singleImage: false
 hasCarousel: true
+useYoutube: true
 images: 
   - image: /images/events/actoncls202402/photo1.jpg
     content_html: "1"
