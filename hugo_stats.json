@@ -23,6 +23,7 @@
       "hr",
       "html",
       "i",
+      "iframe",
       "img",
       "input",
       "li",
@@ -30,7 +31,6 @@
       "meta",
       "nav",
       "noscript",
-      "object",
       "ol",
       "p",
       "script",
@@ -99,7 +99,7 @@
       "d-sm-block",
       "d-sm-none",
       "dsq-brlink",
-      "embed",
+      "embed-container",
       "fixed-top",
       "font-secondary",
       "font-weight-bold",
@@ -176,7 +176,6 @@
       "prev",
       "py-2",
       "py-4",
-      "responsive-embed",
       "rounded-0",
       "row",
       "section",
@@ -205,9 +204,7 @@
       "ti-youtube",
       "top-header",
       "top-hider",
-      "video-player",
-      "w-100",
-      "widescreen"
+      "w-100"
     ],
     "ids": [
       "1914-translation-by-h-rackham",
