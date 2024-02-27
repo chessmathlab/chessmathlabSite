@@ -1,5 +1,5 @@
 ---
-title: "Cambridge Foundry Festival @Cambridge, Join Us on Feb 24, 2024!"
+title: "Cambridge Foundry Festival @Cambridge on Feb 24, 2024"
 # Schedule page publish date
 publishDate: "2024-02-10T00:00:00Z"
 # event date
@@ -14,8 +14,8 @@ description : ""
 image: "images/events/cambridgeFoundry202402.jpg"
 # location
 location: "Cambridge, MA"
-singleImage: true
-useYoutube: false
+singleImage: false
+useYoutube: true
 hasCarousel: false
 # entry fee
 #fee: "From: $699"
@@ -46,17 +46,17 @@ hasCarousel: false
 # type
 type: "event"
 ---
+{{< yt "Mv8D_Y7OxvI" >}}
 
 ### About Event
 
-[Cambridge Foundry Festival](https://www.cambridgefoundry.org/events/festival) is a weeklong festival, hosted by The Foundry Consortium, will offer free programming to explore how art and design can drive social change and inspire community engagement. The festival intends to bridge generational gaps and foster connections between communities. All ages and skill levels are welcome to participate in as many activities as you are excited about.
+[Cambridge Foundry Festival](https://www.cambridgefoundry.org/events/festival) is a weeklong festival, which intends to bridge generational gaps and foster connections between communities. Three of our team members hosted a two-hour chess event on Feb 24, 2024, the event attracted more than 30 festival participants (kids and adults) to play and learn chess with our team members. The participants really enjoyed the event.
 
-Our chess program session is scheduled on **Feb 24, 2024 3pm to 5 pm**, **NO registration is required**. It's open to all ages, our team members will play chess with participants in all different formats.
+Katy Frazier: 
+> My kids have played chess at after school, this year and this was a great event to get them to see other kids in community playing chess and learn a bit more about strategy.
 
-Location is **Community Hall at Foundry Building (14 in the the following Foundry Map)**, [101 Rogers St., Cambridge, MA 02142](https://www.google.com/maps/dir//42.3666874,-71.0827421/@42.3666579,-71.1651429,12z?entry=ttu). Foundry Festival Website gives [Direction & Parking Information](https://www.cambridgefoundry.org/events/festival#Parking)
-
-#### Foundry Indoor Map
-<img src="/images/events/foundryMap.png" width="100%">
+Elizabeth Meyer: 
+> Chess is very interesting for my son from his experience in an after school program, and this was a great opportunity to play in a different environment where there was a combination of play and explanation from high-level players.
 
 
 
