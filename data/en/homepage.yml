@@ -81,13 +81,13 @@ advisors:
   title: Advisors
   advisor_item:
      - name : "Lawyer Times"
-       profile : "Future Masters Chess Academy Head Coach & Massachusetts State Chess Champion in 2017"
+       profile : "Head Coach at Future Masters Chess Academy & Massachusetts State Chess Champion in 2017"
      - name : "Christine Pasterczyk"
-       profile : "Physics Faculty & Adviser for the Nobles Chess Club in Noble and Greenough School"
+       profile : "Physics Faculty & Adviser for the Nobles Chess Club at Noble and Greenough School"
 
 supporters:
   enable : true
-  title: Supporters & Collabrators
+  title: Supporters & Partners
   supporter_item: 
     - title : "Future Master Chess Academy"
       image: "/images/supporters/futureMasterAcademy.png"
@@ -115,14 +115,13 @@ reviews:
   enable: true
   title: Selected Testimonials
   review_item: 
-    - author: "Charlynne Mines-Smart"
+    - author: "Charlynne Mines-Smart, Chief Operating Officer at Sportsmen's Tennis & Enrichment Center"
       content: "I can not say thank you enough!! You guys did an amazing job this summer with our kids. I was unsure of how the younger youth would take to the idea of chess but I am so glad that we settled with this group of students. They enjoyed the program so much. It was wonderful to hear them talk about chess in the hallways. Parents spoke about how much their children enjoyed the program and more youth wanted to join the fun. The biggest comment we received was that 2 weeks wasn't long enough. 
       I want to thank you both for your consistency throughout the time you were here. You came in on time and ready to work with the kids the moment they entered the room. You were amazing!"
-    - author: "Elizabeth Meyer"
+    - author: "Logan Lopez, Program Coordinator at Cambridge Foundry"
+      content: "The chess activity brought a great energy to the Community Hall on Saturday and it was really exciting to see all the young people interested in chess... We hope to work with you again soon! It was cool to have national champions as the teachers for these kids just starting out with chess!"
+    - author: "Elizabeth Meyer, a chess kid's parent"
       content: "Chess is very interesting for my son from his experience in an after school program, and this was a great opportunity to play in a different environment where there was a combination of play and explanation from high-level players."
-    - author: "Katy Frazier"
-      content: "My kids have played chess at after school, this year and this was a great event to get them to see other kids in community playing chess and learn a bit more about strategy."    
-
             
 ######################## Success story #############################
 success_story:

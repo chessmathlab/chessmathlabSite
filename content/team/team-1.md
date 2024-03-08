@@ -18,6 +18,7 @@ description : "President & Co-Founder"
 * 1st in MA (Benjamin Award), 2019 World Amateur East Team Tournaments
 * 2018 All American Chess Team
 ---
+* AMO Qualifier 2024
 * AIME Qualifier Honor Distinctions 2023 AMC 12 A&B
 * AIME Qualifier Distinction 2022, 2021, 2020 AMC 10 A&B
 * Program in Mathematics for Young Scientists, 2023 Summer
