@@ -43,7 +43,6 @@ type: "event"
 ---
 {{< yt "VrL3nT5DRz0" >}}
 
-### About Event
 
 On Jan 19, 2024, our team members Alex and Derek taught chess at the Family Night at Cambridge Community Center. Thirty five families joined the event. Our team used a variety of flexible formats including one-on-one coaching, small group lessons, simultaneous exhibit (one play multiple opponents), and free play. Both kids and adults had so much fun with chess that many of them refused to leave the boards even after the Family Night ended. 
 

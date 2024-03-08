@@ -39,8 +39,6 @@ images:
 type: "event"
 ---
 
-### About Event
-
 In Summer 2023, our team members Derek and Alex taught chess at the Sportsmen Tennis and Enrichment Center in Dorchester. At first, it was challenging to coach the students whose age ranged from 9-18 and most of them never played chess before. We memorized their names and took detailed daily notes to adapt to their learning styles. In two weeks, we covered the basic chess rules, opening principles, and tactics. The Knight Tour, a classic problem in chess and math, particularly intrigued their young minds. As days went by, the chatter and yawning of the first class had morphed into eagerness and intense concentration.
 
 Never before had we witnessed such exuberance from the campers’ first chess wins ever: screaming, twirling around, kissing the chess king, and smiling in tears. The camp concluded with an exciting tournament and a yummy celebration. Ms. Mines-Smart, Chief Program Director of STEC, emailed us to let us know that kids were talking about chess in the hallways, that more youth wanted to join the fun, and that two weeks wasn’t long enough. 

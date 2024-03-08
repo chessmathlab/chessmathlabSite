@@ -63,44 +63,67 @@ slider:
 ############################## about ##################################
 about:
   enable : true
-  title : "Chess + Math =<br> Empower Mind"
+  title : "Chess + Math = Empower Mind"
   image : "images/about/about-us.jpg"
-  content : "At ChessMathLab, we are committed to empower minds of all ages with chessematics. Through creative and inclusive programs tailored for kids and seniors, ChessMathLab aspires to help participants discover the transformative power of chessematics and develop critical STEM and social-emotional skills. Join us on this exciting journey where chess, math, and learning converge to inspire and empower "
+  content : " <a href=\"/team\" style=\"color: orange !important\"> Our co-founders Derek Jin, Alexander Meng and Eric Feng</a> are nationally top ranked chess players 
+  and award-winning mathletes. <br/>
+  At ChessMathLab, we are committed to empower minds of all ages with chessematics. 
+  Through creative and inclusive programs tailored for kids and seniors, ChessMathLab aspires to help participants discover the transformative power of chessematics and develop critical STEM and social-emotional skills.
+  Join us on this fun journey where chess and math inspire and empower people of all backgrounds and at all levels!
+ "
   button:
-    enable : false
+    enable : true
+    label: "Read More"
+    link: "/about"
 
-
-############################## for kids ##################################
-for_kids:
+advisors:
   enable : true
-  title : "Chess & STEM For Kids"
-  image : "images/chessForKids.jpg"
-  content : "Our team is dedicated to nurturing intelligence and mental resilience in children through the game of chess. While not professional coaches, 
-  our volunteers bring passion and expertise to each session, emphasizing the mastery of chess strategies alongside the development of 
-  critical thinking and problem-solving skills. Additionally, we integrate Math and STEM-related subjects into our lessons,
-  utilizing chess games as a platform for learning. Children are encouraged to apply their chess knowledge and pattern recognition skills 
-  to Math and STEM concepts, fostering a deeper understanding of these subjects in a fun and interactive way. Through interactive lessons and gameplay,
-  our mentors guide children to think strategically and persevere through challenges,
-  both on and off the chessboard. By honing their skills in chess and applying them to Math and STEM subjects, children also sharpen their abilities 
-  in academics, career, and life. The transformative power of chess has the potential to unlock children's full capabilities, paving the way for a brighter future."
-  button:
-    enable : false
+  title: Advisors
+  advisor_item:
+     - name : "Lawyer Times"
+       profile : "Future Masters Chess Academy Head Coach & Massachusetts State Chess Champion in 2017"
+     - name : "Christine Pasterczyk"
+       profile : "Physics Faculty & Adviser for the Nobles Chess Club in Noble and Greenough School"
 
-############################## for seniors ##################################
-for_seniors:
+supporters:
   enable : true
-  title : "Chess For Seniors"
-  image : "images/chessForSeniors.jpg"
-  content : "At ChessMathLab, our commitment to fostering intellectual growth extends beyond children to seniors as well. 
-  Our dedicated volunteers organize special events at senior community centers, offering seniors the opportunity to learn
-   chess or enhance their skills. Engaging in chess not only keeps their minds sharp but also contributes to improved mental health by 
-   stimulating cognitive functions and promoting social interaction. Our volunteers provide patient guidance and support,
-    ensuring that seniors feel empowered and encouraged on their chess journey. Through these initiatives, ChessMathLab aims to enrich the lives of seniors,
-     providing them with a fulfilling activity that brings both mental stimulation and social connection."
-  button:
-    enable : false  
+  title: Supporters & Collabrators
+  supporter_item: 
+    - title : "Future Master Chess Academy"
+      image: "/images/supporters/futureMasterAcademy.png"
+      url: "https://futurechessmasters.com/"
+    - title : "Chess.com"
+      image: "/images/supporters/ChessDotCom.png"
+      url: "https://chess.com"
+    - title : "Lichess.org"
+      image: "/images/supporters/LichessOrg.jpeg"
+      url: "https://lichess.org"
+    - title : "Sportsmen Tennis & Enrichment Center"
+      image: "/images/supporters/stec-logo.png"
+      url: "https://sportsmenstennis.org/"
+    - title: "Cambridge Foundry"
+      image: "/images/supporters/cambridgeFoundry.png"
+      url: "https://www.cambridgefoundry.org/"
+    - title : "Cambridge Community Center"
+      image: "/images/supporters/cambridgeCommunityCenter.png"
+      url: "https://www.cambridgecc.org/"
+    - title : "Acton Chinese Lanaguage School"
+      image: "/images/supporters/acls.jpg"
+      url: "https://www.acls-ma.org/index.php?lang=en"
 
+reviews:
+  enable: true
+  title: Selected Testimonials
+  review_item: 
+    - author: "Charlynne Mines-Smart"
+      content: "I can not say thank you enough!! You guys did an amazing job this summer with our kids. I was unsure of how the younger youth would take to the idea of chess but I am so glad that we settled with this group of students. They enjoyed the program so much. It was wonderful to hear them talk about chess in the hallways. Parents spoke about how much their children enjoyed the program and more youth wanted to join the fun. The biggest comment we received was that 2 weeks wasn't long enough. 
+      I want to thank you both for your consistency throughout the time you were here. You came in on time and ready to work with the kids the moment they entered the room. You were amazing!"
+    - author: "Elizabeth Meyer"
+      content: "Chess is very interesting for my son from his experience in an after school program, and this was a great opportunity to play in a different environment where there was a combination of play and explanation from high-level players."
+    - author: "Katy Frazier"
+      content: "My kids have played chess at after school, this year and this was a great event to get them to see other kids in community playing chess and learn a bit more about strategy."    
 
+            
 ######################## Success story #############################
 success_story:
   enable : false
@@ -115,28 +138,28 @@ success_story:
 
 ############################# event ################################
 event:
-  enable : true
+  enable : false
   title : "Events"
   # event item comes from "content/**/events" folder.
 
-  
+
 ########################### funfacts ############################
 funfacts:
   enable : true
   funfact_item:
     # funfact item loop
-    - name : "SITES"
+    - name : "EVENT SITES"
       count : "4"
 
-    - name : "HOURS"
-      count : "100"
+    - name : "VOLUNTEER HOURS"
+      count : "400"
 
     # funfact item loop
     - name : "STUDENTS"
-      count : "30"
+      count : "80"
 
     # funfact item loop
     - name : "REACHED AUDIENCE"
-      count : "300"
+      count : "1000"
 
 # funfact is for about page

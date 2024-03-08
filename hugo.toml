@@ -177,14 +177,19 @@ copyright = "Copyright &copy; 2024 [ChessMathLab](https://chessmathlab.org/)"
 # main menu
 
 [[Languages.en.menu.main]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[Languages.en.menu.main]]
 name = "Team"
 url = "team/"
-weight = 1
+weight = 2
 
 [[Languages.en.menu.main]]
 name = "Events"
 url = "event/"
-weight = 2
+weight = 3
 
 #[[Languages.en.menu.main]]
 #weight = 4
@@ -199,7 +204,7 @@ weight = 2
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact/"
-weight = 3
+weight = 4
 
 
 # footer menu

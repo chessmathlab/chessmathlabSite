@@ -48,15 +48,7 @@ type: "event"
 ---
 {{< yt "Mv8D_Y7OxvI" >}}
 
-### About Event
-
 [Cambridge Foundry Festival](https://www.cambridgefoundry.org/events/festival) is a weeklong festival, which intends to bridge generational gaps and foster connections between communities. Three of our team members hosted a two-hour chess event on Feb 24, 2024, the event attracted more than 30 festival participants (kids and adults) to play and learn chess with our team members. The participants really enjoyed the event.
-
-Katy Frazier: 
-> My kids have played chess at after school, this year and this was a great event to get them to see other kids in community playing chess and learn a bit more about strategy.
-
-Elizabeth Meyer: 
-> Chess is very interesting for my son from his experience in an after school program, and this was a great opportunity to play in a different environment where there was a combination of play and explanation from high-level players.
 
 
 
