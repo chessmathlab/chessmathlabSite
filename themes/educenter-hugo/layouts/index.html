@@ -41,7 +41,7 @@
             <h3 class="text-white">{{ .title | markdownify }}</h3>
               <p></p>
               <div>
-                <img class="img-responsive" style="max-width: 100%; min-width: 400px;  height: auto; margin-bottom: 20px" src="{{ .image }}" alt="">
+                <a href="{{ .button.link | absLangURL }}"><img class="img-responsive" style="max-width: 100%; min-width: 400px;  height: auto; margin-bottom: 20px" src="{{ .image }}" alt=""></a>
                 {{ if .button.enable }}
                 <a href="{{ .button.link | absLangURL }}" class="btn btn-primary">{{ .button.label }}</a>
                 {{ end }}
@@ -90,7 +90,7 @@
 
 <!-- advisors -->
 {{ if $data.homepage.advisors.enable }}
-<section class="section" style="margin-top: -100px">
+<section class="section" style="margin-top: -120px">
   <div class="container">
       {{ with $data.homepage.advisors }}
       <div class="row align-items-center">
@@ -112,9 +112,28 @@
  {{ end }} 
 <!-- advisors -->
 
+<!-- Affiliations & Certifications -->
+<section class="section" style="margin-top: -120px">
+  <div class="container">    
+      <div class="row align-items-center">
+          <div class="col-md-6 order-2 order-md-1">
+            <h3 class="section-title">Affiliations & Certifications</h3>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="row">
+            Chess + Math Lab is US Chess Federation affiliated member. <br/> <br/>
+            We are certified by the Presidential Volunteer Services Award(PVSA) Program, and can help eligible volunteers apply for Presidential Volunteer Services Award.
+        </div>
+          </div>
+    </div>
+  </div>
+ </section>
+<!-- Affiliations & Certifications -->
+
 <!-- supporters -->
 {{ if $data.homepage.supporters.enable }}
-<section class="section" style="margin-top: -100px">
+<section class="section" style="margin-top: -120px">
   <div class="container">
       {{ with $data.homepage.supporters }}
       <div class="row align-items-center">
@@ -139,7 +158,7 @@
 
 <!-- Testmonials -->
 {{ if $data.homepage.reviews.enable }}
-<section class="section" style="margin-top: -100px">
+<section class="section" style="margin-top: -120px">
   <div class="container">
       {{ with $data.homepage.reviews }}
       <div class="row align-items-center">

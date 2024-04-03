@@ -14,8 +14,18 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
+    - title : "\"Think Before You Move\" @STEC Dorchester <br/> on March 15, 2024!"
+      content : "Our team started Think Before you Move monthly program at STEC Dorchester"
+      image: "images/events/thinkBe4Umove202403.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/thinkbeforeyoumove202403"
     - title : "Cambridge Foundry Festival @Cambridge <br/> on Feb 24, 2024!"
-      content : "Our team will host a chess program in Cambridge Foundry Festival from 3pm to 5pm on Feb 24, 2024"
+      content : "Our team hosted a free chess program in Cambridge Foundry Festival from 3pm to 5pm on Feb 24, 2024"
       image: "images/events/cambridgeFoundry202402.jpg"
       animation_in : "left"
       animation_out : "right"
@@ -25,7 +35,6 @@ slider:
         label : "Read More"
         link : "event/cambridgefoundry2024"
 
-    # slider item loop
     - title : "Family Chess Night @Cambridge Community Center <br/> on Jan 19, 2024"
       content : "Our team offers free chess lesson program in Cambridge Community Center to young kids"
       image: "images/events/cambridgecc202401.jpg"
