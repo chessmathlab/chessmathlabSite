@@ -11,9 +11,19 @@
         {{ .Content }}
       </div>
     </div>
+    <h3 class="section-title">Co-Founders</h3>
     <div class="row">
-      <!-- team item -->
-      {{ range .Data.Pages.ByWeight }}
+      <!-- team item  -->
+      {{ range first 3 .Data.Pages.ByWeight }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ .Render "team" }}
+      </div>
+      {{ end }}
+    </div>
+    <h3 class="section-title">Chess Instructors</h3>
+    <div class="row">
+      <!-- team item  -->
+      {{ range last 1 .Data.Pages.ByWeight }}
       <div class="col-lg-4 col-sm-6 mb-4">
         {{ .Render "team" }}
       </div>

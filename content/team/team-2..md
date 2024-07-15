@@ -7,11 +7,12 @@ bg_image: "images/backgrounds/page-title.jpg"
 image: "images/team/team-item-2.jpg"
 # meta description
 description : "Vice President & Co-Founder"
-weight: 20
+weight: 2
+role: Co-Founder
 ---
-* USCF Chess Expert
+* USCF Chess Candidate Master
 * USCF Chess Tournament Director
-* 3rd Place, 2020 Invitational Spiegel Cup
+* 3rd Place, 2020 MA Invitational Spiegel Cup, 11U 
 * 5th Place, 2020 John D. Rockefeller III National Tournament of Elementary School State Champions
 * 16th Place, 2018 National Grade Championship
 * 3rd Place, 2017 Invitational Spiegel Cup  

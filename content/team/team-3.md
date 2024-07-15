@@ -8,16 +8,18 @@ image: "images/team/team-item-3.jpg"
 # meta description
 description : "Vice President & Co-Founder"
 school: "Freshman @ Acton-Boxborough Regional High School"
-weight: 300
+weight: 3
+role: Co-Founder
 ---
 * USCF National Master
+* 1st Place, 2024 MA Invitational Spiegel Cup, High School
 * 4th Place, 2023 Dewain Barber National Middle School State Champions
 * 1st Place, 2023 Weeramantry National Blitz Tournament (U2200) 
 * 1st Place, National K-12  & 1st in MA (all ages), 2023 World Amateur East Team Tournaments
-* 1st Place, 2023 Invitational Spiegel Cup
-* 1st Place, 2022 Invitational Spiegel Cup
-* 3rd Place, 2021 Invitation Spiegel Cup
-* 1st Place, 2020 Invitational Spiegel Cup
+* 1st Place, 2023 MA Invitational Spiegel Cup, Middle School
+* 1st Place, 2022 MA Invitational Spiegel Cup, Middle School
+* 3rd Place, 2021 MA Invitational Spiegel Cup, Middle School
+* 1st Place, 2020 MA Invitational Spiegel Cup, 11U
 * 2nd Place, 2021 North America Youth U14 Blitz
 * 9th Place, 2019 National 5th Grade Championship
 ---

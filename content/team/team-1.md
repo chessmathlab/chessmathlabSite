@@ -7,14 +7,15 @@ bg_image: "images/backgrounds/page-title.jpg"
 image: "images/team/team-item-1.jpg"
 # meta description
 weight: 1
+role: Co-Founder
 description : "President & Co-Founder"
 ---
 * USCF National Master
 * 10th Place, 2023 National Grade Championship
 * 1st Place, National K-12 & 1st in MA (all ages), 2023 World Amateur East Team Tournaments
-* 3rd Place, 2023 Invitational Spiegel Cup
-* 2nd Place, 2021 Invitation Spiegel Cup
-* 2nd Place, 2020 Invitation Spiegel Cup
+* 3rd Place, 2023 MA Invitational Spiegel Cup, High School
+* 2nd Place, 2021 MA Invitational Spiegel Cup, Middle School
+* 2nd Place, 2020 MA Invitational Spiegel Cup, 14U
 * 1st in MA (Benjamin Award), 2019 World Amateur East Team Tournaments
 * 2018 All American Chess Team
 ---
