@@ -24,8 +24,19 @@ slider:
         enable : true
         label : "Read More"
         link : "event/littleton202407"
-    
-    - title : "\"Think Before You Move\" @STEC Dorchester <br/> on March 15, 2024!"
+
+    - title : "\"Think Before You Move\" @STEC Dorchester <br/> on April 19, 2024"
+      content : "Our team started Think Before you Move monthly program at STEC Dorchester"
+      image: "images/events/thinkBe4Umove202404.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/thinkbeforeyoumove202404"
+
+    - title : "\"Think Before You Move\" @STEC Dorchester <br/> on March 15, 2024"
       content : "Our team started Think Before you Move monthly program at STEC Dorchester"
       image: "images/events/thinkBe4Umove202403.jpg"
       animation_in : "left"
@@ -35,7 +46,8 @@ slider:
         enable : true
         label : "Read More"
         link : "event/thinkbeforeyoumove202403"
-    - title : "Cambridge Foundry Festival @Cambridge <br/> on Feb 24, 2024!"
+
+    - title : "Cambridge Foundry Festival @Cambridge <br/> on Feb 24, 2024"
       content : "Our team hosted a free chess program in Cambridge Foundry Festival from 3pm to 5pm on Feb 24, 2024"
       image: "images/events/cambridgeFoundry202402.jpg"
       animation_in : "left"
@@ -46,16 +58,6 @@ slider:
         label : "Read More"
         link : "event/cambridgefoundry2024"
 
-    - title : "Family Chess Night @Cambridge Community Center <br/> on Jan 19, 2024"
-      content : "Our team offers free chess lesson program in Cambridge Community Center to young kids"
-      image: "images/events/cambridgecc202401.jpg"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Read More"
-        link : "event/cambridgecc202401"
 
     - title : "Challenge Chess Master @Acton <br/>Lunar New Year Celebration on Feb 4, 2024"
       content : "Our team member hosted a Challenge Chess Master event in Chinese New year Festival Celebration organized by Acton Chinese Language School"
@@ -67,6 +69,17 @@ slider:
         enable : true
         label : "Read More"
         link : "event/actoncls202402"
+
+    - title : "Family Chess Night @Cambridge Community Center <br/> on Jan 19, 2024"
+      content : "Our team offers free chess lesson program in Cambridge Community Center to young kids"
+      image: "images/events/cambridgecc202401.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/cambridgecc202401"
 
     - title : "Free Chess Summer Camp @STEC Dorchester <br/> Summer 2023"
       content : "Our team offers free chess summer program in Sportsmen Tennis and Enrichment Center in Dorchester for young kids"
