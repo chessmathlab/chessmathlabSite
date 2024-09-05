@@ -3,7 +3,7 @@ title: "Free Two-Week Chess Summer Camp @STEC Dorchester Summer 2024"
 # Schedule page publish date
 publishDate: "2024-09-03T00:00:00Z"
 # event date
-date: "2024-08-13T15:27:17+06:00"
+date: "2024-08-12T15:27:17+06:00"
 # post save as draft
 draft: false
 # page title background image
@@ -53,6 +53,6 @@ images:
 type: "event"
 ---
 
-Teaching the Summer Chess Program at the Sportsmen’s Tennis and Enrichment Center (Sportsmen’s) for two weeks (08/13 - 08/23) has been incredibly rewarding for all of our Chess+Math Lab coaches. It was so wonderful to see some returning campers from last year! In two weeks, we covered how pieces move, opening strategies, tactics, end game, as well as some basic pawn structures. The two-week program concluded with a chess tournament to celebrate the strategic thinking, problem-solving, and sportsmanship of the young players, skills that could help the kids excel in chess and life beyond. 
+Teaching the Summer Chess Program at the Sportsmen’s Tennis and Enrichment Center (Sportsmen’s) for two weeks (08/12 - 08/23) has been incredibly rewarding for all of our Chess+Math Lab coaches. It was so wonderful to see some returning campers from last year! In two weeks, we covered how pieces move, opening strategies, tactics, end game, as well as some basic pawn structures. The two-week program concluded with a chess tournament to celebrate the strategic thinking, problem-solving, and sportsmanship of the young players, skills that could help the kids excel in chess and life beyond. 
 
 {{< pdfReader "/pdfs/events/sportsmanNewsletter202408.pdf" >}}

@@ -25,9 +25,19 @@ slider:
         label : "Read More"
         link : "event/sportsmen202408"
 
+    - title : "Chess Summer Camp @Boston Center for Youth and Families in Hyder Park in August 2024"
+      content : "Our team offers free chess summer program in Boston Center for Youth and Families in Hyder Park"
+      image: "images/events/bostonCYF202408/photo1.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/bcyf202408"
     
     - title : "Teach Seniors Chess @Littleton Senior Apartment <br/> on July 14, 2024"
-      content : "Our team has an event teaching seniors chess at littleton senior apartment"
+      content : "Our team has an event teaching seniors chess at Littleton senior apartment"
       image: "images/events/littleton202407.jpg"
       animation_in : "left"
       animation_out : "right"
