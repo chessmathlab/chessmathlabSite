@@ -1,5 +1,5 @@
 ---
-title: "Free Two-Week Chess Summer Camp @STEC Dorchester Summer 2024"
+title: "Free Two-Week Chess Summer Camp @Sportsmen's Tennis and Enrichment Center in Dorchester Summer 2024"
 # Schedule page publish date
 publishDate: "2024-09-03T00:00:00Z"
 # event date

@@ -1,5 +1,5 @@
 ---
-title: "Free Chess Summer Camp @STEC Dorchester Summer 2023"
+title: "Free Chess Summer Camp @Sportsmen's Tennis and Enrichment Center in Dorchester Summer 2023"
 # Schedule page publish date
 publishDate: "2023-08-14T00:00:00Z"
 # event date

@@ -14,7 +14,7 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Free Two-Week Chess Summer Camp @STEC Dorchester <br/> August 2024 for the 2nd year"
+    - title : "Free Two-Week Chess Summer Camp <br/>@Sportsmen's Tennis and Enrichment Center in Dorchester, August 2024 for the 2nd year"
       content : "Our team offers free chess summer program in Sportsmen Tennis and Enrichment Center in Dorchester"
       image: "images/events/sportsmenCenter202408/photo1.jpg"
       animation_in : "left"
@@ -25,7 +25,7 @@ slider:
         label : "Read More"
         link : "event/sportsmen202408"
 
-    - title : "Chess Summer Camp @Boston Center for Youth and Families in Hyder Park in August 2024"
+    - title : "Chess Summer Camp @Boston Center for Youth and Families Hyder Park in August 2024"
       content : "Our team offers free chess summer program in Boston Center for Youth and Families in Hyder Park"
       image: "images/events/bostonCYF202408/photo1.jpg"
       animation_in : "left"
@@ -103,7 +103,7 @@ slider:
         label : "Read More"
         link : "event/cambridgecc202401"
 
-    - title : "Free Chess Summer Camp @STEC Dorchester <br/> Summer 2023"
+    - title : "Free Chess Summer Camp @Sportsmen's Tennis and Enrichment Center in Dorchester Summer 2023"
       content : "Our team offers free chess summer program in Sportsmen Tennis and Enrichment Center in Dorchester for young kids"
       image: "images/events/sportsmenCenter202308/photo1.jpg"
       animation_in : "left"
