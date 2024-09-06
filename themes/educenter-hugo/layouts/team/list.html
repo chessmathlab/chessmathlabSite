@@ -15,16 +15,28 @@
     <div class="row">
       <!-- team item  -->
       {{ range first 3 .Data.Pages.ByWeight }}
-      <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="col-lg-4 col-sm-6 mb-4 style1">
         {{ .Render "team" }}
       </div>
       {{ end }}
     </div>
+    <h3 class="section-title">Program Directors</h3>
+    <div class="row">
+      <!-- team item  -->
+      {{ range $index, $director := .Data.Pages.ByWeight }}
+      {{ if (and (gt $index 2) (lt $index 5)) }}
+      <div class="col-lg-4 col-sm-6 mb-4 style1">
+        {{ .Render "team" }}
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+
     <h3 class="section-title">Chess Instructors</h3>
     <div class="row">
       <!-- team item  -->
       {{ range last 1 .Data.Pages.ByWeight }}
-      <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="col-lg-4 col-sm-6 mb-4 style1">
         {{ .Render "team" }}
       </div>
       {{ end }}
