@@ -14,6 +14,16 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
+    - title : "Cambridge Foundry Festival @Cambridge <br/> on Feb 20, 2025"
+      content : "Our team hosted a free chess program in Cambridge Foundry Festival from 2pm to 4pm on Feb 20, 2025"
+      image: "images/events/cambridgeFoundry202502.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/cambridgefoundry2025"
     - title : "Free Two-Week Chess Summer Camp <br/>@Sportsmen's Tennis and Enrichment Center in Dorchester, August 2024 for the 2nd year"
       content : "Our team offers free chess summer program in Sportsmen Tennis and Enrichment Center in Dorchester"
       image: "images/events/sportsmenCenter202408/photo1.jpg"
