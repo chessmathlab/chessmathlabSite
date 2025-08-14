@@ -14,6 +14,16 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
+    - title : "Chess Summer Camp @Boston Center for Youth and Families Quincy Community Center in August 2025"
+      content : "Our team offers free chess summer program in Boston Center for Youth and Families in Quincy Community Center"
+      image: "images/events/bcyf202508.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/bcyf202508"
     - title : "Cambridge Foundry Festival @Cambridge <br/> on Feb 20, 2025"
       content : "Our team hosted a free chess program in Cambridge Foundry Festival from 2pm to 4pm on Feb 20, 2025"
       image: "images/events/cambridgeFoundry202502.jpg"
