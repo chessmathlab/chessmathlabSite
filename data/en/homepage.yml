@@ -13,6 +13,16 @@ slider:
   enable : true
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
+    - title : "3rd Year Two-week Free Chess Summer Camp @ Sportsmen’s, Dorchester in August 2025"
+      content : "Our team offers free chess summer program in Sportsmen Tennis and Enrichment Center in Dorchester"
+      image: "images/events/sportsmenCenter202508.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/sportsmen202508"
+      # available animation : left, right, up, down
     # slider item loop
     - title : "Chess Summer Camp @Boston Center for Youth and Families Quincy Community Center in August 2025"
       content : "Our team offers free chess summer program in Boston Center for Youth and Families in Quincy Community Center"
