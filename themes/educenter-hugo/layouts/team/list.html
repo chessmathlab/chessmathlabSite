@@ -14,18 +14,18 @@
     <h3 class="section-title">Co-Founders</h3>
     <div class="row">
       <!-- team item  -->
-      {{ range first 3 .Data.Pages.ByWeight }}
-      <div class="col-lg-4 col-sm-6 mb-4 style1">
+      {{ range first 2 .Data.Pages.ByWeight }}
+      <div class="col-lg-6 col-sm-6 mb-6 style1">
         {{ .Render "team" }}
       </div>
       {{ end }}
     </div>
-    <h3 class="section-title">Program Directors</h3>
+    <h3 class="section-title">Vice Presidents</h3>
     <div class="row">
       <!-- team item  -->
       {{ range $index, $director := .Data.Pages.ByWeight }}
-      {{ if (and (gt $index 2) (lt $index 5)) }}
-      <div class="col-lg-4 col-sm-6 mb-4 style1">
+      {{ if (and (gt $index 1) (lt $index 4)) }}
+      <div class="col-lg-6 col-sm-6 mb-6 style1">
         {{ .Render "team" }}
       </div>
       {{ end }}
@@ -36,7 +36,7 @@
     <div class="row">
       <!-- team item  -->
       {{ range last 1 .Data.Pages.ByWeight }}
-      <div class="col-lg-4 col-sm-6 mb-4 style1">
+      <div class="col-lg-6 col-sm-6 mb-6 style1">
         {{ .Render "team" }}
       </div>
       {{ end }}

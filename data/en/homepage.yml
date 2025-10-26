@@ -169,6 +169,8 @@ advisors:
        profile : "Head Coach at Future Masters Chess Academy & Massachusetts State Chess Champion in 2017"
      - name : "Christine Pasterczyk"
        profile : "Physics Faculty & Adviser for the Nobles Chess Club at Noble and Greenough School"
+     - name : "Derek Jin"
+       profile : "Chessmathlab Co-Founder, Harvard University student of class 2029, US Chess Federation National Master"       
 
 supporters:
   enable : true
