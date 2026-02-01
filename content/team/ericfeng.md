@@ -11,7 +11,7 @@ school: "Freshman @ Acton-Boxborough Regional High School"
 weight: 2
 role: Co-Founder
 ---
-Eric attends Acton-Boxborough Regional High school in the Class of 2027. He has been playing chess competitively since he was 6 years old. In 2022, at the age of 13, Eric achieved the US Chess Federation National Master title and has a peak USCF rating of 2299. 
+Eric attends Acton-Boxborough Regional High school in the Class of 2027. He has been playing chess competitively since he was 6 years old. In 2022, at the age of 13, Eric achieved the US Chess Federation National Master title and has a peak USCF rating of 2339 and FIDE live rating of 2311. 
 
 He is 6-time Massachusetts State Spiegel Cup invitational champion/co-champion(the 1st place in 2020 in 11U section, tie for the 1st place in 2021 in 14U section, the 1st place in 2022 and 2023 in middle school section, the 1st place in 2024 and 2025 in high school section), and has won the 4th place in national Barber middle school state champions invitational in 2023, and won Ursula Foster 15U Memorial Award in national Denker high school state champions invitational in 2024. He is a big fan of blitz chess, has won the 2nd place in North American Blitz tournament(U14) in 2021, the 1st place in national Weeramantry Blitz tournament (U2200) in 2022, and the 1st place in Masschusetts Open Blitz tournament in 2024.
 

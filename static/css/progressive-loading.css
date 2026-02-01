@@ -1,0 +1,48 @@
+/* Modern Progressive Image Loading */
+
+/* Always show critical images (logo, slider, etc) */
+.navbar-brand img,
+.slick-slider img,
+img:not([loading="lazy"]) {
+  opacity: 1 !important;
+}
+
+/* Lazy-loaded images start hidden */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+/* Show lazy images when loaded */
+img[loading="lazy"].loaded {
+  opacity: 1;
+}
+
+/* Skeleton loading state for lazy images while they load */
+img[loading="lazy"]:not(.loaded) {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Card images specific sizing */
+.card-img-top[loading="lazy"]:not(.loaded) {
+  min-height: 250px;
+}
+
+/* Event card images */
+.card-img[loading="lazy"] img:not(.loaded) {
+  min-height: 300px;
+}
+

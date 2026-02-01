@@ -9,13 +9,13 @@ theme = "educenter-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
 # post pagination
-paginate = 6 # see https://gohugo.io/extras/pagination/
+# paginate = 6 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
 # google analytics
 googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
-disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+# disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 # disable language
 disableLanguages = [
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
@@ -112,8 +112,8 @@ top_header = true
 
 # Preloader
 [params.preloader]
-enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
@@ -132,7 +132,7 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this co
 
 # cookies
 [params.cookies]
-enable = true
+enable = false
 expire_days = 1
   
 ############################# social site ########################
@@ -168,7 +168,7 @@ weight = 1
 [Languages.en.params]
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2024 [ChessMathLab](https://chessmathlab.org/)"
+copyright = "Copyright &copy; 2026 [ChessMathLab](https://chessmathlab.org/)"
 
 
 

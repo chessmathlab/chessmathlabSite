@@ -1,0 +1,80 @@
+/* Modern Minimal Page Header Styling */
+
+.page-header-minimal {
+    padding: 80px 0 60px;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    border-top: none !important;
+    position: relative;
+  }
+  
+  /* Remove any green borders or decorative elements */
+  .page-header-minimal::before,
+  .page-header-minimal::after {
+    display: none !important;
+  }
+  
+  /* Page title styling */
+  .page-title {
+    display: none !important;
+  }
+  
+  /* Page description styling */
+  .page-description {
+    font-size: 1.1rem;
+    color: #64748b;
+    margin: 0;
+    max-width: 700px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .page-header-minimal {
+      padding: 40px 0 30px;
+    }
+  
+    .page-title {
+      font-size: 2rem;
+    }
+  
+    .page-description {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .page-header-minimal {
+      padding: 30px 0 25px;
+    }
+  
+    .page-title {
+      font-size: 1.75rem;
+    }
+  }
+  
+  /* Add proper spacing after header for content sections */
+  .page-header-minimal + .section,
+  .page-header-minimal + section {
+    padding-top: 60px;
+  }
+  
+  @media (max-width: 768px) {
+    .page-header-minimal + .section,
+    .page-header-minimal + section {
+      padding-top: 50px;
+    }
+  }
+  
+  /* Remove any leftover page-title-section styling */
+  .page-title-section {
+    border: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+  
+  .page-title-section::before,
+  .page-title-section::after {
+    display: none !important;
+  }
+  
