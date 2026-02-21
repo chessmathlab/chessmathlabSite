@@ -14,4 +14,4 @@ description : ""
 **_Empower mind with chess and math._**
 
  Chess+Math Lab team is committed to empower minds through our free chess and math activities. 
- All three co-founders are high school students with award-winning chess and math credentials and coaching experiences. 
+ All three co-founders (Derek Jin is now a college student as advisor) were high school students with award-winning chess and math credentials and coaching experiences. 
