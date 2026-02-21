@@ -13,7 +13,17 @@ slider:
   enable : true
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
-    - title : "3rd Year Two-week Free Chess Summer Camp @ Sportsmen’s, Dorchester in August 2025"
+    - title : "The 3rd year chess program in Cambridge Foundry Festival @Cambridge on Feb 19, 2026"
+      content : "Our team hosted a free chess program in Cambridge Foundry Festival from 2pm to 4pm on Feb 19, 2026"
+      image: "images/events/cambridgeFoundry202602.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/cambridgefoundry2026"
+    - title : "The 3rd Year Two-week Free Chess Summer Camp @ Sportsmen’s, Dorchester in August 2025"
       content : "Our team offers free chess summer program in Sportsmen Tennis and Enrichment Center in Dorchester"
       image: "images/events/sportsmenCenter202508.jpg"
       animation_in : "left"
@@ -237,14 +247,14 @@ funfacts:
       count : "4"
 
     - name : "VOLUNTEER HOURS"
-      count : "400"
+      count : "600"
 
     # funfact item loop
     - name : "STUDENTS"
-      count : "80"
+      count : "160"
 
     # funfact item loop
     - name : "REACHED AUDIENCE"
-      count : "1000"
+      count : "1800"
 
 # funfact is for about page

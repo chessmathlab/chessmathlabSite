@@ -14,7 +14,7 @@
                 <p><i class="ti-location-pin text-primary mr-2"></i>{{ .Params.Location | markdownify }}</p>
               </div>
           <div class="card-img position-relative">
-            <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+            <a href="{{ .Permalink }}"><img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}"></a>
             <div class="card-date"><span>{{ .Date.Format "02" }}</span><br>{{ .Date.Format "Jan" }}<br>{{ .Date.Format "2006" }}</div>
           </div>
         </div>
