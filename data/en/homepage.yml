@@ -13,6 +13,16 @@ slider:
   enable : true
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
+    - title : "A Five-Round Blitz Tournament with 27 players hosted @Belmont public library on June 07, 2026"
+      content : "Our team hosted a free 5 round blitz tournamentin Belmont public library on June 07, 2026"
+      image: "images/events/belmontBlitz202606.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/belmont202606"  
     - title : "The 3rd year chess program in Cambridge Foundry Festival @Cambridge on Feb 19, 2026"
       content : "Our team hosted a free chess program in Cambridge Foundry Festival from 2pm to 4pm on Feb 19, 2026"
       image: "images/events/cambridgeFoundry202602.jpg"
