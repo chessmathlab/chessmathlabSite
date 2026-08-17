@@ -13,6 +13,16 @@ slider:
   enable : true
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
+    - title : "The 4th Year Two-week Free Chess Summer Camp @ Sportsmen’s, Dorchester in August 2026"
+      content : "Our team offers free chess summer program in Sportsmen Tennis and Enrichment Center in Dorchester"
+      image: "images/events/sportsmenCenter202608.jpg"
+      animation_in : "left"
+      animation_out : "right"
+      button:
+        enable : true
+        label : "Read More"
+        link : "event/sportsmen202608"
+
     - title : "A Five-Round Blitz Tournament with 27 players hosted @Belmont public library on June 07, 2026"
       content : "Our team hosted a free 5 round blitz tournamentin Belmont public library on June 07, 2026"
       image: "images/events/belmontBlitz202606.jpg"
@@ -257,11 +267,11 @@ funfacts:
       count : "4"
 
     - name : "VOLUNTEER HOURS"
-      count : "600"
+      count : "800"
 
     # funfact item loop
     - name : "STUDENTS"
-      count : "160"
+      count : "200"
 
     # funfact item loop
     - name : "REACHED AUDIENCE"
