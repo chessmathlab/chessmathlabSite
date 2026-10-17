@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $data := index site.Data site.Language.Lang }}
+{{ $data := index hugo.Data site.Language.Lang }}
 
 <!-- about -->
 <section class="section">
@@ -21,30 +21,6 @@
 
 
 
-<!-- success story -->
-<!--{{ partial "success-story.html" . }} -->
-<!-- /success story -->
-
-<!-- teacher -->
-<!-- {{ if $data.homepage.blog.enable }} -->
-<!-- <section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="section-title">{{ i18n "our_teachers" }}</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center"> -->
-      <!-- teacher -->
-      <!-- {{ range first 3 (where site.RegularPages "Type" "teacher")}} -->
-      <!-- <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0"> -->
-        <!-- {{ .Render "teacher" }} -->
-      </div>
-      <!-- {{ end }} -->
-    <!-- </div>
-  </div>
-</section> -->
-<!-- {{ end }} -->
-<!-- /teacher -->
+{{/* Legacy success-story and teacher sections were removed because this site does not publish those page types. */}}
 
 {{ end }}

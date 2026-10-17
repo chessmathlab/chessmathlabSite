@@ -1,8 +1,8 @@
 [build]
 publish = "public"
-command = "yarn project-setup && yarn build"
+command = "npm install --no-save sass && hugo --gc --minify"
 
 [build.environment]
-HUGO_VERSION = "0.115.1"
-GO_VERSION = "1.20.5"
+HUGO_VERSION = "0.168.0"
+HUGO_EXTENDED = "true"
 HUGO_BASEURL = "/"

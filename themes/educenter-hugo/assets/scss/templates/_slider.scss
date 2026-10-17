@@ -1,8 +1,25 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+
 .hero-section {
   padding-left: 0;
   padding-right: 0;
   padding-top: 200px;
   padding-bottom: 100px;  
+
+  @include mobile {
+    // Clear the restored fixed social/email header and navigation bar.
+    padding-top: 185px;
+    padding-bottom: 76px;
+  }
+}
+
+.hero-slide-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .hero-slider {
@@ -62,6 +79,28 @@
         border: 0;
         outline: 0;
       }
+    }
+  }
+
+  @include mobile {
+    .prevArrow,
+    .nextArrow {
+      bottom: -56px;
+      padding: 12px;
+      font-size: 24px;
+    }
+
+    .prevArrow { right: 44px; }
+    .nextArrow { right: 0; }
+
+    .slick-dots {
+      right: 62px;
+      bottom: -39px;
+      left: 0;
+      white-space: nowrap;
+      overflow: hidden;
+
+      li { margin: 0 4px; }
     }
   }
 }

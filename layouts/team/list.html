@@ -11,13 +11,18 @@
         {{ .Content }}
       </div>
     </div>
-    <h3 class="section-title">Co-Founders</h3>
+    {{ $members := .Pages.ByWeight }}
+    {{ $coFounders := where $members "Params.team_group" "co-founders" }}
+    {{ $leaders := where $members "Params.team_group" "leadership" }}
+    {{ $instructors := where $members "Params.team_group" "instructors" }}
+
+    <h2 class="section-title">Co-Founders</h2>
     <div class="row">
       <!-- team item  -->
-      {{ range first 2 .Pages.ByWeight }}
-      <div class="col-lg-6 col-sm-6 mb-6 style1">
+      {{ range $coFounders }}
+      <div class="col-lg-6 col-sm-6 mb-6">
         <div class="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
-            <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="team-thumb">
+            <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy" decoding="async">
             <div class="card-body">
               <h5 class="card-title mb-3">{{ .Title }} <br/>({{ .Params.description }})</h5>
               <div class="content">{{ .Content }}</div>
@@ -26,14 +31,13 @@
       </div>
       {{ end }}
     </div>
-    <h3 class="section-title">Vice Presidents</h3>
+    <h2 class="section-title">Vice Presidents</h2>
     <div class="row">
       <!-- team item  -->
-      {{ range $index, $director := .Pages.ByWeight }}
-      {{ if (and (gt $index 1) (lt $index 4)) }}
-      <div class="col-lg-6 col-sm-6 mb-6 style1">
+      {{ range $director := $leaders }}
+      <div class="col-lg-6 col-sm-6 mb-6">
         <div class="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
-            <img class="card-img-top rounded-0" src="{{ $director.Params.image | relURL }}" alt="team-thumb">
+            <img class="card-img-top rounded-0" src="{{ $director.Params.image | relURL }}" alt="{{ $director.Title }}" loading="lazy" decoding="async">
             <div class="card-body">
               <h5 class="card-title mb-3">{{ $director.Title }} <br/>({{ $director.Params.description }})</h5>
               <div class="content">{{ $director.Content }}</div>
@@ -41,16 +45,15 @@
           </div>
       </div>
       {{ end }}
-      {{ end }}
     </div>
 
-    <h3 class="section-title">Chess Instructors</h3>
+    <h2 class="section-title">Chess Instructors</h2>
     <div class="row">
       <!-- team item  -->
-      {{ range last 5 .Pages.ByWeight }}
-      <div class="col-lg-6 col-sm-6 mb-6 style1">
+      {{ range $instructors }}
+      <div class="col-lg-6 col-sm-6 mb-6">
         <div class="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
-            <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="team-thumb">
+            <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy" decoding="async">
             <div class="card-body">
               <h5 class="card-title mb-3">{{ .Title }} <br/>({{ .Params.description }})</h5>
               <div class="content">{{ .Content }}</div>

@@ -1,0 +1,43 @@
+{{ with site.Params.analytics.measurement_id }}
+<div id="analytics-consent" class="analytics-consent" role="dialog" aria-label="Analytics preference" aria-live="polite" hidden>
+  <p>We use optional analytics to understand how our site is used. No analytics cookies are set unless you agree.</p>
+  <div class="analytics-consent-actions">
+    <button class="btn btn-sm btn-outline-light" type="button" data-analytics-choice="declined">No thanks</button>
+    <button class="btn btn-sm btn-primary" type="button" data-analytics-choice="granted">Accept analytics</button>
+  </div>
+</div>
+<script>
+  (function () {
+    var storageKey = 'cml-analytics-consent';
+    var measurementId = '{{ . }}';
+    var dialog = document.getElementById('analytics-consent');
+    function loadAnalytics() {
+      if (window.__cmlAnalyticsLoaded) return;
+      window.__cmlAnalyticsLoaded = true;
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ window.dataLayer.push(arguments); }
+      window.gtag = gtag;
+      gtag('consent', 'default', { analytics_storage: 'granted' });
+      gtag('js', new Date());
+      gtag('config', measurementId, { anonymize_ip: true });
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(measurementId);
+      document.head.appendChild(script);
+    }
+    function getConsent() { try { return window.localStorage.getItem(storageKey); } catch (error) { return null; } }
+    function setConsent(choice) { try { window.localStorage.setItem(storageKey, choice); } catch (error) {} }
+    var consent = getConsent();
+    if (consent === 'granted') loadAnalytics();
+    else if (consent !== 'declined') dialog.hidden = false;
+    dialog.addEventListener('click', function (event) {
+      var button = event.target.closest('[data-analytics-choice]');
+      if (!button) return;
+      var choice = button.getAttribute('data-analytics-choice');
+      setConsent(choice);
+      dialog.hidden = true;
+      if (choice === 'granted') loadAnalytics();
+    });
+  })();
+</script>
+{{ end }}

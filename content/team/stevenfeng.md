@@ -10,6 +10,7 @@ description : "Chess Instructor"
 school: "Acton-Boxborough Regional High School"
 weight: 7
 role: Chess Instructor
+team_group: instructors
 ---
 Steven attends Acton-Boxborough Regional High school in the Class of 2029. On his 6th birthday, he played his first rated chess tournament. On his chess journey, he reached a peak USCF rating of 1898 and has qualified for the Massachusetts Spiegel Cup invitational finals for 4 consecutive years. Since 7th grade, he started teach kids chess beginners via online lessons or chess camp.
 

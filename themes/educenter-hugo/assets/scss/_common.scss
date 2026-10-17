@@ -1,10 +1,14 @@
+@use 'sass:color';
+@use 'variables' as *;
+@use 'mixins' as *;
+
 body {
   background-color: $body-color;
   overflow-x: hidden;
 }
 
 ::selection {
-  background: lighten($color: $primary-color, $amount: 10);
+  background: color.adjust($primary-color, $lightness: 10%);
   color: $white;
 }
 
@@ -55,8 +59,41 @@ select {
   }
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba($primary-color, .8);
+  outline-offset: 3px;
+}
+
 a:hover {
   color: $primary-color;
+}
+
+.analytics-consent {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10000;
+  width: min(420px, calc(100% - 40px));
+  padding: 20px;
+  border: 1px solid rgba($white, .18);
+  background: $secondary-color;
+  box-shadow: 0 14px 36px rgba($black, .25);
+
+  p {
+    margin-bottom: 14px;
+    color: $white;
+    font-size: .9rem;
+    line-height: 1.55;
+  }
+}
+
+.analytics-consent-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 a.text-primary:hover {
@@ -377,7 +414,7 @@ textarea.form-control{
     }
 
     thead {
-      background: darken($color: $light, $amount: 2);
+      background: color.adjust($light, $lightness: -2%);
     }
 
     tbody {

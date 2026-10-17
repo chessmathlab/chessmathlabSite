@@ -10,5 +10,6 @@ description : "Vice President"
 school: "Belmont Hill School"
 weight: 3
 role: Vice President
+team_group: leadership
 ---
 Justin attends Belmont Hill School in the Class of 2026. Currently he is a US Chess Federation Chess Expert. He is one of the top scholastic players in Massachusetts and won many local chess tournaments. He began playing chess at the age of seven and has been volunteering teaching chess classes since fifth grade. Justin has co-organized chess events and volunteered for various not-for-profit organizations. Apart from chess, Justin competes in track and field and enjoys reading and digital music.

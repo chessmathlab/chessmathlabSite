@@ -10,6 +10,7 @@ description : "Chess Instructor"
 school: "Acton-Boxborough Regional High School"
 weight: 10
 role: Chess Instructor
+team_group: instructors
 ---
 Chasen is a student in the Acton-Boxborough Regional High School Class of 2027. He began playing Over-the-Board (OTB) chess tournaments at the age of six and remains an active participant in his high school's chess club events.
 

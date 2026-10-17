@@ -10,6 +10,7 @@ description : "Chess Instructor"
 school: "Acton-Boxborough Regional High School"
 weight: 6
 role: Chess Instructor
+team_group: instructors
 ---
 Bohan, a student in the Acton-Boxborough Regional High School Class of 2028, is an accomplished chess player who holds the title of US Chess Candidate Master Expert with a peak rating of 2118. Since playing his first Over-the-Board (OTB) chess tournament at age eight, he has achieved success in numerous local competitions. In 8th grade, he won second place (on a tiebreak for first) in the Massachusetts Spiegel Cup Invitational Finals' middle school section, In 9th grade, he won national grade chess championship 10th place.
 

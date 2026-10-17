@@ -1,37 +1,20 @@
 {{ define "main" }}
 
-{{ $data := index site.Data site.Language.Lang }}
+{{ $data := index hugo.Data site.Language.Lang }}
 
 
-<!-- hero banner -->
-<!-- {{ if $data.homepage.banner.enable }}
-{{ with $data.homepage.banner }}
-<section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
- <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <h1 class="text-white">{{ .title | markdownify }}</h1>
-        <p class="text-muted mb-4">{{ .content | markdownify }}</p>
-        {{ if .button.enable }}
-        <a href="{{ .button.link | absLangURL }}" class="btn btn-primary">{{ .button.label }}</a>
-        {{ end }}
-      </div>
-    </div>
- </div>
-</section>
-{{end}}
-{{end}} -->
-<!-- hero banner -->
+{{/* The legacy static banner is intentionally disabled in favor of the slider below. */}}
 
 <!-- hero slider -->
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
   <div class="container">
+    <h1 class="sr-only">Chess + Math Lab</h1>
     <div class="btn" style="padding:0 0;text-align:left;color:#ffbc3b!important; margin-bottom:10px; z-index: 1;">
-          Highlight: <a href="event/cambridgefoundry2025">Video</a>
+      Highlight: <a href="{{ `event/cambridgefoundry2025` | relLangURL }}">Video</a>
     </div>
-    <div class="hero-slider">
+    <div class="hero-slider" aria-label="Featured events">
       <!-- slider item -->
       {{ range .slider_item }}
       <div class="hero-slider-item" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".1"
@@ -39,15 +22,12 @@
         <div class="row">
           <div class="col-md-8">
             <h3 class="text-white">{{ .title | markdownify }}</h3>
-              <p></p>
               <div>
-                <a href="{{ .button.link | absLangURL }}"><img class="img-responsive" style="max-width: 100%; min-width: 400px;  height: auto; margin-bottom: 20px" src="{{ .image }}" alt=""></a>
+                <a href="{{ .button.link | absLangURL }}"><img class="img-responsive hero-slide-image" src="{{ .image | absURL }}" alt="{{ .title | plainify }}" decoding="async"></a>
                 {{ if .button.enable }}
                 <a href="{{ .button.link | absLangURL }}" class="btn btn-primary">{{ .button.label }}</a>
                 {{ end }}
               </div>              
-              <!-- <p class="text-muted mb-4">{{ .content | markdownify }}</p> -->
-           
           </div>
         </div>
       </div>
@@ -78,7 +58,7 @@
       </div>
       {{ with .image }}
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <img class="img-fluid w-100" src="{{ . | absURL }}" alt="about image">
+        <img class="img-fluid w-100" src="{{ . | absURL }}" alt="Chess + Math Lab students and volunteers" loading="lazy" decoding="async">
       </div>
       {{ end }}
     </div>
@@ -98,10 +78,10 @@
             <h3 class="section-title">{{ .title | markdownify }}</h3>
           </div>
       </div>      
-  <div class="col-12">      
+  <div class="col-12">
       {{ range .advisor_item }}
       <div class="row">
-          <h6 class="mb-0">{{ .name }}:&nbsp</h6>  {{.profile}} <br/></br>
+          <h6 class="mb-0">{{ .name }}:&nbsp;</h6><p class="mb-3">{{ .profile }}</p>
       </div>
 
       {{ end }}
@@ -121,13 +101,12 @@
             </div>
         </div>
         <div class="col-10">
-            <div class="row">
-            Chess + Math Lab is US Chess Federation affiliated member. <br/> <br/>
-            We are certified by the Presidential Volunteer Services Award(PVSA) Program, and can help eligible volunteers apply for Presidential Volunteer Services Award.
-        </div>
+          <div class="row">
+            Chess + Math Lab is a US Chess Federation-affiliated member.<br><br>
+            Before the Presidential Volunteer Service Award (PVSA) program was paused in May 2025, we were certified to help eligible volunteers apply for the award.
           </div>
+        </div>
     </div>
-  </div>
  </section>
 <!-- Affiliations & Certifications -->
 
@@ -145,7 +124,7 @@
       <div class="row">
       {{ range .supporter_item }}
       <div class="d-flex align-items-center col-md-3" style="width: 180px; height: 180px;">
-    <a href="{{ .url }}" target="_blank"> <img src="{{ .image | absURL }}" alt="{{.title}}" style="max-width: 160px; height:auto; vertical-align: middle;"> </a>
+    <a href="{{ .url | safeURL }}" target="_blank" rel="noopener noreferrer"><img src="{{ .image | absURL }}" alt="{{ .title }}" style="max-width: 160px; height:auto; vertical-align: middle;" loading="lazy" decoding="async"></a>
     </div>
       {{ end }}
   </div>
@@ -169,11 +148,11 @@
       <div class="row">  
       {{ range .review_item }}
         <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-          <blockquote class="style1"> <span> 
-            {{ .content }}     
-          </span>  
-          <br/>   
-          <footer><cite> {{.author}}</cite></footer>
+          <blockquote class="style1"><span>
+            {{ .content }}
+          </span>
+          <br>
+          <footer><cite>{{ .author }}</cite></footer>
           </blockquote>
           
         </div>
@@ -316,7 +295,7 @@
       {{ range .funfact_item }}
       <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
         <div class="text-center">
-          <h2 class="count text-white" data-count="{{ .count }}">0</h2>
+          <h2 class="count text-white" data-count="{{ .count }}" data-suffix="{{ .suffix }}">0</h2>
           <h5 class="text-white">{{ .name }}</h5>
         </div>
       </div>

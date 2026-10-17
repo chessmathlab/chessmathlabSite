@@ -38,8 +38,8 @@
     infinite: true,
     arrows: true,
     fade: true,
-    prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-left\'></i></button>',
-    nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-right\'></i></button>',
+    prevArrow: '<button type=\'button\' class=\'prevArrow\' aria-label=\'Previous slide\'><i class=\'ti-angle-left\' aria-hidden=\'true\'></i></button>',
+    nextArrow: '<button type=\'button\' class=\'nextArrow\' aria-label=\'Next slide\'><i class=\'ti-angle-right\' aria-hidden=\'true\'></i></button>',
     dots: true
   });
   $('.hero-slider').slickAnimation();
@@ -63,36 +63,40 @@
     });
   });
 
-  //  Count Up
+  // Count up once when the statistics become visible.
   function counter() {
-    var oTop;
-    if ($('.count').length !== 0) {
-      oTop = $('.count').offset().top - window.innerHeight;
-    }
-    if ($(window).scrollTop() > oTop) {
-      $('.count').each(function () {
-        var $this = $(this),
-          countTo = $this.attr('data-count');
-        $({
-          countNum: $this.text()
-        }).animate({
-          countNum: countTo
-        }, {
-          duration: 1000,
-          easing: 'swing',
-          step: function () {
-            $this.text(Math.floor(this.countNum));
-          },
-          complete: function () {
-            $this.text(this.countNum);
-          }
-        });
+    $('.count').each(function () {
+      var $this = $(this);
+      if ($this.data('counted')) return;
+      $this.data('counted', true);
+      var countTo = $this.attr('data-count'),
+        suffix = $this.attr('data-suffix') || '';
+      $({ countNum: 0 }).animate({ countNum: countTo }, {
+        duration: 1000,
+        easing: 'swing',
+        step: function () {
+          $this.text(Math.floor(this.countNum));
+        },
+        complete: function () {
+          $this.text(this.countNum + suffix);
+        }
       });
-    }
+    });
   }
-  $(window).on('scroll', function () {
+  var countElements = document.querySelectorAll('.count');
+  if (countElements.length && 'IntersectionObserver' in window) {
+    var countObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        counter();
+        countObserver.disconnect();
+      });
+    }, { threshold: 0.25 });
+    countObserver.observe(countElements[0]);
+  } else if (countElements.length) {
+    $(window).on('scroll', counter);
     counter();
-  });
+  }
 
   // Animation
   $(document).ready(function () {

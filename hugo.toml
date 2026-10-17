@@ -1,5 +1,5 @@
 baseURL = 'https://chessmathlab.org/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'ChessMathLab'
 theme = "educenter-hugo"
 ######################## default configuration ####################
@@ -12,8 +12,6 @@ timeZone = "America/New_York"
 # paginate = 6 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
-# google analytics
-googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
 # disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 # disable language
@@ -45,9 +43,16 @@ home = ["HTML", "RSS"]
 ############################# Imaging ##############################
 [imaging]
 # See https://github.com/disintegration/imaging
-# Default JPEG or WebP quality setting. Default is 75.
-quality = 90
 resampleFilter = "lanczos"
+
+[imaging.jpeg]
+quality = 90
+
+[imaging.webp]
+quality = 90
+
+[imaging.avif]
+quality = 90
 
 ############################# Caches ###############################
 [caches]
@@ -97,18 +102,19 @@ link = "plugins/google-map/gmap.js"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "This is meta description"
+description = "Free chess and math programs that empower learners of all ages."
 author = "ChessMathLab"
 # contact info
-address = "Boston, Masschusetts USA"
+address = "Boston, Massachusetts, USA"
 # mobile = "+211234565523"
 email = "chessmath2023@gmail.com"
 # contact form action
 contact_form_action = "https://getform.io/f/8908aae1-d0f0-4fa9-bc92-e8cc5f68c7b7" # contact form works with https://formspree.io
-# Google Analitycs
-google_analitycs_id = "" # your id
 # top header
 top_header = true
+# Analytics only loads after a visitor gives consent.
+[params.analytics]
+measurement_id = "G-CELNJ03SYQ"
 
 # Preloader
 [params.preloader]
@@ -137,16 +143,6 @@ expire_days = 1
   
 ############################# social site ########################
 [[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://www.facebook.com/profile.php?id=61555900906432"
-
-[[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/chessmathlab"
-
-[[params.social]]
 title = "instagram"
 icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
 link = "https://www.instagram.com/chessmathlab"
@@ -160,8 +156,8 @@ link = "https://www.youtube.com/@ChessMathLab"
 
 ################################### English language #####################################
 [Languages.en]
-languageName = "En"
-languageCode = "en-us"
+label = "En"
+locale = "en-us"
 contentDir = "content"
 weight = 1
 
@@ -216,4 +212,3 @@ url = "event/"
 [[Languages.en.menu.footer]]
 name = "team"
 url = "team/"
-

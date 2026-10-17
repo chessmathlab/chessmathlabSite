@@ -24,7 +24,7 @@ slider:
         link : "event/sportsmen202608"
 
     - title : "A Five-Round Blitz Tournament with 27 players hosted @Belmont public library on June 07, 2026"
-      content : "Our team hosted a free 5 round blitz tournamentin Belmont public library on June 07, 2026"
+      content : "Our team hosted a free five-round blitz tournament in Belmont Public Library on June 07, 2026"
       image: "images/events/belmontBlitz202606.jpg"
       animation_in : "left"
       animation_out : "right"
@@ -223,7 +223,7 @@ supporters:
     - title : "Cambridge Community Center"
       image: "/images/supporters/cambridgeCommunityCenter.png"
       url: "https://www.cambridgecc.org/"
-    - title : "Acton Chinese Lanaguage School"
+    - title : "Acton Chinese Language School"
       image: "/images/supporters/acls.jpg"
       url: "https://www.acls-ma.org/index.php?lang=en"
 
@@ -263,18 +263,22 @@ funfacts:
   enable : true
   funfact_item:
     # funfact item loop
-    - name : "EVENT SITES"
-      count : "4"
+    - name : "ORGANIZED EVENTS"
+      count : "15"
+      suffix : "+"
 
     - name : "VOLUNTEER HOURS"
       count : "800"
+      suffix : "+"
 
     # funfact item loop
     - name : "STUDENTS"
-      count : "200"
+      count : "250"
+      suffix : "+"
 
     # funfact item loop
     - name : "REACHED AUDIENCE"
       count : "1800"
+      suffix : "+"
 
 # funfact is for about page

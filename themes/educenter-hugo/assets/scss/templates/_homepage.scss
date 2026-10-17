@@ -1,3 +1,6 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+
 /* banner feature */
 .feature-icon {
   font-size: 50px;
